@@ -1,0 +1,9 @@
+<!--suppress XmlHighlighting -->
+<launch>
+	<!-- <include file="$(find husky_gazebo)/launch/playpen.launch"/>
+	<include file="$(find husky_gazebo)/launch/spawn_husky.launch"/> -->
+	<node pkg="lab5" name="lab5" type="lab5.py" output="screen">
+	<param name="goalx" type="double" value="-5.00"/>
+    <param name="goaly" type="double" value="9.00"/>
+	</node>
+</launch>
